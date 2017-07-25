@@ -1,0 +1,13 @@
+<% include partials/header %>
+
+<div class="container">
+    <p><%= campground.name %></p>
+    <div class="row">
+        <div class="thumbnail">
+            <img src="<%= campground.image %>">
+        </div>
+    </div>
+    <p><%= campground.description %></p>
+</div>
+
+<% include partials/footer %>
